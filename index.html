@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      h1 {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+      }
+      h2 {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+      }
+      table,
+      th,
+      td {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 200;
+        border-radius: 0%;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>ГОДИШНА ДАНОЧНА ПРИЈАВА</h1>
+    <h2>за утврдување на данокот на личен доход</h2>
+    <hr />
+
+    <table>
+      <tr>
+        <td><label>ЕМБГ</label></td>
+        <td>
+          <input
+            type="number"
+            ;
+            maxlength="13"
+            ;
+            style="border-style: solid; border-color: rgb(154, 109, 197)"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Име и презиме и адреса на живеење за контакт </label>
+        </td>
+        <td>
+          <textarea
+            name="Ime-Prezime-Adresa"
+            required
+            style="
+              border-style: solid;
+              border-color: rgb(154, 109, 197);
+              border-width: 0.3cap;
+            "
+          ></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Телефон</label></td>
+        <td>
+          <input
+            type="number"
+            style="border-style: solid; border-color: rgb(154, 109, 197)"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td><label>е-пошта</label></td>
+        <td>
+          <input
+            type="email"
+            required
+            style="border-style: solid; border-color: rgb(154, 109, 197)"
+          />
+        </td>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+    <table>
+      <tr>
+        <td>
+          <label
+            style="
+              background-color: rgb(146, 125, 167);
+              border: 1cap;
+              padding: 15px;
+            "
+            >Датум и број</label
+          >
+        </td>
+        <td>
+          <textarea
+            name="Datum i broj"
+            style="
+              border-style: solid;
+              border-color: rgb(146, 125, 167);
+              border-width: 1cap;
+              padding: 15px;
+            "
+          ></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">Даночен период</td>
+      </tr>
+      <tr>
+        <td><label>од</label></td>
+        <td>
+          <input
+            type="date"
+            style="border-style: solid; border-color: rgb(154, 109, 197)"
+          />
+        </td>
+        <td><label>до</label></td>
+        <td>
+          <input
+            type="date"
+            style="border-style: solid; border-color: rgb(154, 109, 197)"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td><label>Датум на издавање</label></td>
+        <td>
+          <input
+            type="datetime"
+            style="border-style: solid; border-color: rgb(154, 109, 197)"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td><label>Рок за потврдување</label></td>
+        <td>
+          <input
+            type="datetime"
+            style="border-style: solid; border-color: rgb(154, 109, 197)"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td><label>Фолио број</label></td>
+        <td>
+          <input
+            type="number"
+            style="border-style: solid; border-color: rgb(154, 109, 197)"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td><label>Службена исправка</label></td>
+        <td>
+          <input type="checkbox" />
+        </td>
+      </tr>
+    </table>
+
+    <br /><br />
+    <h4>
+      За корекција на пополнетите податоци внесете ги точните износи во празните
+      полиња под податоците пополнети од Управата за јавни приходи, а во
+      спротивно оставете ги непополнети.
+    </h4>
+    <h3>ОСТВАРЕН ДОХОД</h3>
+
+    <table style="border-style: solid; border-color: rgb(154, 109, 197)">
+      <thead>
+        <tr>
+          <th>Вид на остварен доход</th>
+          <th>Бруто износ на доход</th>
+          <th>Вкупен износ на платени придонеси / признаeни трошоци</th>
+          <th>Вкупен износ на пресметан ДЛД</th>
+          <th>Вкупен износ на платен ДЛД</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1. Доход од работа</td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            1.1. Плата и надоместоци на плата од работен однос и исплата по
+            основ на деловна успешност на работодавачот
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>1.2. Пензии</td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            1.3. Друг доход од работа (од работен однос, регрес за годишен
+            одмор, од органите на управување и надзор, на функционери,
+            пратеници, советници, носители на јавни функции, судии поротници,
+            вешти лица, стечајни управници, членови на МАНУ, спортисти,
+            практична обука, пензиски надоместок, придонес во доброволен
+            пензиски фонд, практиканска работа и договор за повремено или
+            привремено вршење на услуги)
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>2. Доход од самостојна дејност</td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>3. Доход од авторски и сродни права</td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>4. Доход од продажба на сопствени земјоделски производи</td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>5. Доход од права од индустриска сопственост</td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>6. Доход од закуп и подзакуп</td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              style="border-style: solid; border-color: rgb(154, 109, 197)"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
